@@ -1,0 +1,37 @@
+body {
+    font-size: 40px;
+    color: white;
+    background-color: rgb(37, 37, 37);
+}
+
+.container {
+    position: relative;
+}
+
+.position {
+    position: fixed;
+    left: 50%;
+    right: 50px;
+    bottom: 100px;
+}
+
+.elem-1 {
+    max-width: 800px;
+    min-width: 600px;
+    min-height: 100px;
+    border-radius: 10px;
+    background-color: white;
+
+    position: relative;
+}
+
+.elem-2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: red;
+
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+}
