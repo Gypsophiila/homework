@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(59, 59, 59);
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.quad {
+    min-width: 200px;
+    min-height: 200px;
+    margin:38vh 0;
+    border-radius: 15px;
+    position: relative;
+    background-color: rgb(82, 82, 82);
+}
+
+.quad::before {
+    content: '';
+    display: block;
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    top: -15vh;
+    left: -150px;
+    background: linear-gradient(120deg, #9d9d9dc4, #5e5e5ec4 500px);
+    width: 0%;
+}
+
+.quad:hover::before {
+    width: 250%;
+    transition-duration: 2s;
+}
+
+.quad::after {
+    content: 'успех!';
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    position: relative;
+    top: 35%;
+    left: 24%;
+    opacity: 0;
+}
+
+.quad:hover::after {
+    opacity: 1;
+    transition: 1s ease 2s;
+}
