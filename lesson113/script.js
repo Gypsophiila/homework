@@ -17,7 +17,7 @@ buttonOpen.addEventListener('click', () => {
 modal.addEventListener('click', (event) => {
     const target = event.target
     
-    if (target && target.classList.contains('button-close')) {
+    if (target && target.classList.contains('modal') || target.classList.contains('button-close')) {
         closeModul()
     }
 })
