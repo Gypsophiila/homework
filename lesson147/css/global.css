@@ -1,0 +1,84 @@
+
+/* project settings */
+
+:root {
+	--accent-color: #ffa55c;
+	--accent-bg: #ffe0cb;
+	--general-bg: #fff9f4;
+	--accent-text: #1f1711;
+	--general-text: #312c27;
+    --akcentnyy-2: #ceaad0;
+	--fioletovyy: #704174;
+	--disabled: #e1d9e1;
+	--inputy: #ac907a;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Montserrat", "Arial",  sans-serif;
+    font-weight: 400;
+    color: var(--general-text);
+    background-color: var(--general-bg);
+    line-height: 1.5;
+}
+
+.body--opened-menu {
+    overflow: hidden;
+}
+.body--opened-modal {
+    overflow: hidden;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.container {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+.button {
+    font-weight: 500;
+    line-height: 160%;
+    
+    border-radius: 60px;
+    padding: 3px 15px;
+    height: 62px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--general-text);
+    background: var(--accent-color);
+
+    transition: all 0.4s;
+}
+
+.button:hover {
+    background-color: #FF9138;
+}
+
+.title {
+    font-family: "Gabriola";
+    font-size: 74px;
+    line-height: 82%;
+    color: var(--accent-text);
+}
+
+.main__gallery {
+    margin-bottom: 140px;
+}
