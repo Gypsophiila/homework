@@ -920,6 +920,7 @@
     /* ----------- */
 
     .contact__inner {
+        gap: 15px;
         justify-content: center;
     }
 
