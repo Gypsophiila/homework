@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>California</title>
+</head>
+
+<body class="body">
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__top">
+                    <div class="header__top-inner">
+                        <a href="#" class="header__logo">
+                            <img src="img/logo.svg" alt="California">
+                        </a>
+                        <nav class="nav">
+                            <input type="checkbox" id="menu" class="menu-toggle">
+                            <label for="menu" class="menu-btn">
+                                <span></span>
+                            </label>
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">
+                                        all products
+                                    </a>
+                                </li>
+                                <li class="nav__item dropdown">
+                                    <a href="#" class="nav__link">
+                                        Solutions
+                                    </a>
+                                    <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11 1L6 6L1 1" stroke="#070847" stroke-width="1.5" />
+                                    </svg>
+                                    <ul class="dropdown__list">
+                                        <li class="dropdown__item">
+                                            <a href="#" class="dropdown__link">Решение 1</a>
+                                        </li>
+                                        <li class="dropdown__item">
+                                            <a href="#" class="dropdown__link">Решение 2</a>
+                                        </li>
+                                        <li class="dropdown__item">
+                                            <a href="#" class="dropdown__link">Решение 3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">
+                                        About
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">
+                                        Support
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header__top-right">
+                            <ul class="header__top-icons">
+                                <li class="header__top-icon search-container">
+                                    <div class="search-wrapper">
+                                        <input type="text" class="search-input" placeholder="Поиск...">
+                                        <button type="button" class="header__top-icon-link search-toggle">
+                                            <img src="img/icons/search.svg" alt="Search">
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="header__top-icon">
+                                    <a href="#" class="header__top-icon-link">
+                                        <img src="img/icons/cart.svg" alt="Search">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero">
+                    <div class="hero__inner">
+                        <!-- <ul class="slider">
+                            <li class="slider__item">
+                                <h1 class="slider__item-title">The new phones are here take a look.</h1>
+                                <p class="slider__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam, tempor. Faucibus morbi turpis.</p>
+                                <div class="slider__item-button"><a href="#" class="button">Explore</a></div>
+                                <div class="slider__item-img">
+                                    <img src="img/hero-phones.png" alt="Slider">
+                                </div>
+                            </li>
+                            <li class="slider__item">
+                                <h1 class="slider__item-title">The new phones are here take a look.</h1>
+                                <p class="slider__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam, tempor. Faucibus morbi turpis.</p>
+                                <div class="slider__item-button"><a href="#" class="button">Explore</a></div>
+                                <div class="slider__item-img">
+                                    <img src="img/hero-phones.png" alt="Slider">
+                                </div>
+                            </li>
+                            <li class="slider__item">
+                                <h1 class="slider__item-title">The new phones are here take a look.</h1>
+                                <p class="slider__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam, tempor. Faucibus morbi turpis.</p>
+                                <div class="slider__item-button"><a href="#" class="button">Explore</a></div>
+                                <div class="slider__item-img">
+                                    <img src="img/hero-phones.png" alt="Slider">
+                                </div>
+                            </li>
+                        </ul> -->
+                        <div class="swiper slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <li class="slider__item">
+                                        <h1 class="slider__item-title">The new phones are here take a look.</h1>
+                                        <p class="slider__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam, tempor. Faucibus morbi turpis.</p>
+                                        <div class="slider__item-button"><a href="#" class="button">Explore</a></div>
+                                        <div class="slider__item-img">
+                                        <img src="img/hero-phones.png" alt="Slider">
+                                        </div>
+                                    </li>
+                                </div>
+                                <div class="swiper-slide">
+                                    <li class="slider__item">
+                                        <h1 class="slider__item-title">The new phones are here take a look.</h1>
+                                        <p class="slider__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam, tempor. Faucibus morbi turpis.</p>
+                                        <div class="slider__item-button"><a href="#" class="button">Explore</a></div>
+                                        <div class="slider__item-img">
+                                        <img src="img/hero-phones.png" alt="Slider">
+                                        </div>
+                                    </li>
+                                </div>
+                                <div class="swiper-slide">
+                                    <li class="slider__item">
+                                        <h1 class="slider__item-title">The new phones are here take a look.</h1>
+                                        <p class="slider__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam, tempor. Faucibus morbi turpis.</p>
+                                        <div class="slider__item-button"><a href="#" class="button">Explore</a></div>
+                                        <div class="slider__item-img">
+                                        <img src="img/hero-phones.png" alt="Slider">
+                                        </div>
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="swiper-button-prev">
+                                <img src="img/icons/skip.svg" alt="Arrow left">
+                            </div>
+                            <div class="swiper-button-next">
+                                <img src="img/icons/skip.svg" alt="Arrow right">
+                            </div>
+                            <div class="swiper-scrollbar"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
