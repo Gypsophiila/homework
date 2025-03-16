@@ -1,0 +1,53 @@
+.selled__title {
+    padding-bottom: 59px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+}
+
+
+.selled__inner {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 28px;
+}
+
+.selled__inner-item {
+    max-width: 303px;
+    height: auto;
+}
+
+.selled__inner-item-img {
+    padding: 26px;
+    width: 100%;
+}
+
+.selled__inner-item-img img {
+    width: 100%;
+    height: auto;
+}
+
+.selled__inner-item-title {
+    font-family: var(--second-family);
+    font-size: 22px;
+    line-height: 125%;
+    padding-bottom: 9px;
+}
+.selled__inner-item-text {
+    max-width: 261px;
+    height: auto;
+    padding-bottom: 8px;
+    font-size: 14px;
+    color: #4b4b4b;
+}
+.selled__inner-item-price{
+    font-family: var(--font-family);
+    font-size: 18px;
+}
+.selled__inner-item-price-1 { /* там супер мега особенный отспут так менее запарнее всего его */
+    padding-top: 12px;
+}
